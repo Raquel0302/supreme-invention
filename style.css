@@ -132,12 +132,14 @@ section h2 {
  }
 
  .p4img{
+    display: block;
     height: 200px;
     width: 400px;
  }
 
  .p5img {
-    height: 250px;
+    display: block;
+    height: 200px;
     width: 350px;
  }
 
