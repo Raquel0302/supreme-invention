@@ -72,8 +72,8 @@
     
     
 main {
-    width: 75%;
-    display: inline-block;
+    width: 100%;
+    display: block;
     padding-left: 25px;
 }
 
@@ -87,10 +87,10 @@ h2 {
 
 section h2 {
     font-size: 40px;
-    padding-right: 50px;
+    padding-right: 100px;
 }
  article h2 {
-    font-size: 40px;
+    font-size: 30px;
     padding-right: 51px;
  }
  aside h2 {
@@ -109,6 +109,37 @@ section h2 {
     display: inline-block;
     padding: 60px;
 }
+ .p1img {
+    height: 300px;
+    width: 500px;
+ }
+.first-project {
+    display: block;
+    flex-wrap: wrap;
+    height: 350px;
+    width: 350px;
+    justify-content: space-evenly;
+    border: 10px;
+}
+ .p2img {
+    height: 200px;
+    width: 200px;
+ }
+
+ .p3img {
+    height: 200px;
+    width: 300px;
+ }
+
+ .p4img{
+    height: 200px;
+    width: 400px;
+ }
+
+ .p5img {
+    height: 250px;
+    width: 350px;
+ }
 
 
  .footer{
@@ -118,7 +149,4 @@ section h2 {
     text-align: center;
 }
 
-@media screen {
-(min-width: 150px;), (max: width 12825px;), (orientation:portrait)
     
-}
