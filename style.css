@@ -110,23 +110,30 @@ section h2 {
     padding: 60px;
 }
  .p1img {
+    margin: 500px;
+    display: block;
     height: 300px;
-    width: 500px;
+    width: 600px;
  }
 .first-project {
     display: block;
     flex-wrap: wrap;
     height: 350px;
     width: 350px;
-    justify-content: space-evenly;
     border: 10px;
+    margin: 65px;
 }
  .p2img {
-    height: 200px;
-    width: 200px;
+    display: block;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+   justify-content: center;
  }
 
  .p3img {
+    display: block;
+    margin: 10px;
     height: 200px;
     width: 300px;
  }
@@ -135,12 +142,15 @@ section h2 {
     display: block;
     height: 200px;
     width: 400px;
+    margin: 10px;
  }
 
  .p5img {
+    margin-top: 100px;
     display: block;
     height: 200px;
     width: 350px;
+    margin: 10px;
  }
 
 
